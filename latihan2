@@ -1,0 +1,6 @@
+panjang = int(input('panjangnya adalah : '))
+lebar = int(input('lebarnya adalah : '))
+jawab = panjang * lebar
+keliling = panjang * 2 + lebar * 2
+print('luas persegi panjang adalah', jawab)
+print("jawabannya keliling adalah ", keliling)
