@@ -1,0 +1,4 @@
+nama = input('masukkan NAMAMU : ')
+rumi = input('where is rumah you : ')
+print('nama yang anda inputkan adalah', nama)
+print("hayoo rumahmu dii", rumi)
