@@ -1,0 +1,32 @@
+a = [1, 2, 3] #menambahkan elemen
+b = a
+b[1] = 4
+print(a)
+
+win = [1, 2, 3] #menyisipkan elemen
+win.insert(1, 'four')
+print(win)
+
+an = [1, 2, 3]
+bn = an.copy()
+bn[1] = 5
+print(an) #an dan bn bisa dipisahkan
+print(bn)
+
+ae = [1, 2, 3] #ae dan be digabung
+be = [4, 5, 6]
+ae.extend(be)
+print(ae)
+
+popper = [1, 2, 3, 4] #menghapus elemen terakhir
+popper.pop()
+print(popper)
+
+
+namas = ['leo', 'isal', 'dona', 'suhu', 'icha', 'jones']
+namas.remove('leo') #menghapus elemen
+print(namas)
+
+op = [1, 2, 3, 4]
+op.reverse() #membalik elemen
+print(op)
