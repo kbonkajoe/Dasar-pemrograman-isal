@@ -1,0 +1,14 @@
+class person :
+    def __init__(self, name) :
+        self.name = name
+
+    def greet(self):
+        return"hello, " + self.name
+
+    def welcome(self):
+        message = self.greet()
+        print(message + " welcome to the program")
+
+nams = input("masukkan nama anda: ")
+p1 = person(nams)
+p1.welcome()
